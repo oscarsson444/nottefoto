@@ -5,7 +5,6 @@ import ErrorPage from "./error-page.jsx";
 import "/styles/global.css";
 import Home from "./routes/home.jsx";
 import Root from "./routes/root.jsx";
-import Test from "./routes/test.jsx";
 
 const router = createBrowserRouter([
   {
@@ -16,10 +15,6 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
-      },
-      {
-        path: "/test",
-        element: <Test />,
       },
     ],
   },
